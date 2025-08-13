@@ -65,7 +65,7 @@ export async function signIn(params:SignInParams){
 
 
     } catch (error) {
-        console.log(error);
+        console.error(error);
         return {
             success:false ,
             message:"Failed to log into an account"
@@ -110,7 +110,7 @@ export async function getCurrentUser(): Promise<User | null> {
             id:userRecord.id
         } as User
     } catch (error) {
-        console.log(error);
+        console.error(error);
         
         return null
     } 

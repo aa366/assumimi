@@ -2,6 +2,7 @@
 Build and Deploy a Full Stack Real Time AI Voice Agent Interview Platform(1080P_60FPS).mp4
 New folder
 ignoreMe
+.vercelignore
 # dependencies
 /node_modules
 /.pnp
@@ -41,3 +42,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel

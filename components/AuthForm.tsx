@@ -83,33 +83,12 @@ const {name , email , password} = values;
      
 
     }catch(error){
-      console.log(error);
+      console.error(error);
       
       toast.error(`There was an error : ${error}`)
     }
       
 
-
-
-    
-     
-     
-
-    // try {
-    //   console.log("working");
-
-    //   if (type == "sign-up") {
-      
-    //   toast.success("Account created successfully . Please sign in ")
-    // //   router.push("./sign-in")
-    //   } else {
-    //    toast.success(" sign in successfully")
-    // //    router.push("./")
-    //   }
-    // } catch (error) {
-    //   console.log(error);
-    //   toast.error(`there was an error ${error}`);
-    // }
   }
 
   return (
