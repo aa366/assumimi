@@ -317,6 +317,12 @@
 @utility flex-center {
   @apply flex items-center justify-center;
 }
+@utility absolute-center{
+
+  @apply absolute top-1/2 left-1/2 translate-[-50%];
+  
+  
+}
 
 @utility animate-fadeIn {
   animation: fadeIn 0.3s ease-in-out;

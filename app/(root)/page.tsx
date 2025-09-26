@@ -7,6 +7,12 @@ import {  getInterviewByUserId, getLatestInterview } from '@/lib/actions/general
 import { getCurrentUser } from '@/lib/actions/auth.action'
 
 const Page =async () => {
+//   // test loading
+//  await new Promise(()=>{
+//   setTimeout(()=>{
+
+//   },10*1000)
+//  })
 
   const user = await getCurrentUser() as User
   const [userInterviews,latestInterviews] = await Promise.all([
